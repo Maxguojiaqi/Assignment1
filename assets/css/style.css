@@ -1,3 +1,6 @@
+
+/* box size, default is content box */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -56,10 +59,14 @@ p {
 }
 
 .hero {
-    height: 100%;
+    height: 800px;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
 
 .float-left {
     float: left;
@@ -105,7 +112,13 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -118,7 +131,7 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
 .benefit-lead img {
     display: block;
@@ -165,7 +178,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.content img {
+    max-height: 200px;
+}
+
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -175,9 +192,14 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -190,7 +212,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
